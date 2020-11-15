@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="true">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textFontWeight="14"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task6"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task7"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task8"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/task10"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/add"
+            android:onClick="addTask"/>
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>
